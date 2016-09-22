@@ -1,0 +1,45 @@
+$color-accent1: #2e6632;
+$color-accent2: #1f3821;
+
+body{
+  width: 100%;
+}
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  padding: 10px 10px 5px 10px;
+}
+.profile-pic{
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+  width: 100px;
+  background-image: url("images/profile.jpg");
+  background-size: cover;
+  border: 1px solid $color-accent2;
+}
+.profile-description{
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  min-width: 400px;
+  padding: 0 15px;
+  color: $color-accent2;
+  h2{
+    margin: 0;
+    margin-bottom: -10px;
+    color: $color-accent1;
+  }
+}
+.tab{
+  h3{
+    margin: 0;
+  }
+}
+iframe{
+  height: 450px;
+  width: 90%;
+  border: 1px solid rgb(76, 101, 65);
+}

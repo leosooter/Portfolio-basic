@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="profile-pic"></div>
+        <div class="profile-description">
+          <h2>Leo Sooter</h2>
+          <p>
+            Leo Sooter is a student in the Coding Dojo program training for a career
+            in full stack web development. Leo earned a Masters degree in Environment
+            and Community from the Antioch University in Seattle and remains passionate
+            about wildlife conservation.  He loves creating games for his son in Javascript
+            and tinkering with Css animations.
+          </p>
+        </div>
+      </header>
+      <main>
+        <div id="project-tabs">
+          <ul>
+            <li><a href="#tab-1">Digital Reserve</a></li>
+            <li><a href="#tab-2">GitGame</a></li>
+            <li class="refresh-tab"><a href="#tab-3">Natural Selection</a></li>
+          </ul>
+
+          <div id="tab-1" class="tab">
+            <h3>Digital Reserve</h3>
+            <p>
+              This is a concept website for an environmental conservation fundraising project.
+            </p>
+            <p>
+              Coded in Html/Scss/Javascript the site is designed to be simple, interactive and fully responsive.
+            </p>
+            <iframe src="https://leosooter.github.io/digital-reserve/"></iframe>
+          </div>
+
+          <div id="tab-2" class="tab">
+            <h3>GitGame</h3>
+            <p>
+              A simple game to teach the basics of creating an pushing a git repository.
+            </p>
+            <p>
+              Coded in Html/Scss/Jquery and using the Transit.js Library
+            </p>
+            <iframe src="https://leosooter.github.io/GitGame/"></iframe>
+          </div>
+
+          <div id="tab-3" class="tab">
+            <h3>Natural Selection</h3>
+            <p>
+              A JQuery plugin that adds predators to any wesite. Who hasn't wanted an eagle to randomly swoop down and snatch letters off their page?
+            </p>
+            <p>
+              Coded in JQuery without extra plugins.
+            </p>
+            <iframe class="refresh" src="https://leosooter.github.io/Natural-Selection/"></iframe>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </body>
+</html>
